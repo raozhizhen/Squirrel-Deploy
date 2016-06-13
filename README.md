@@ -1,7 +1,7 @@
 # Squirrel-Deploy
 Squirrel 简体中文带 emoji 表情和词库扩展的配置文件。
 
-[先下载输入法](http://rime.im/)
+[先下载安装 Squirrel 输入法](http://rime.im/)
 
 再下载此库，将库里的 Rime 文件夹替换 ~/Library/Rime/ 文件夹。
 
