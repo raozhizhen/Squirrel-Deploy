@@ -1,0 +1,22 @@
+# luna_pinyin_simp.custom.yaml
+patch:
+    engine/translators:
+        - punct_translator
+        - r10n_translator
+        - reverse_lookup_translator
+    recognizer/patterns/reverse_lookup: "`[a-z]*$ "   #请删除$后的空格！不加一个空格貌似总是解析错误，不知道MarkDown我还有多少不知道的地方:(
+    schema/dependencies:
+        - emoji
+    abc_segmentor/extra_tags:
+        - reverse_lookup
+    reverse_lookup:
+        dictionary: emoji
+        enable_completion: false
+        prefix: "`"
+        tips: 〔表情〕
+
+# 載入朙月拼音擴充詞庫
+    "translator/dictionary": luna_pinyin.extended
+# 改寫拼寫運算，使得含西文的詞彙（位於 luna_pinyin.cn_en.dict.yaml 中）不影響簡拼功能（注意，此功能只適用於朙月拼音系列方案，不適用於各類雙拼方案）
+# 本條補靪只在「小狼毫 0.9.30」、「鼠鬚管 0.9.25 」、「Rime-1.2」及更高的版本中起作用。
+    "speller/algebra/@before 0": xform/^([b-df-np-z])$/$1_/

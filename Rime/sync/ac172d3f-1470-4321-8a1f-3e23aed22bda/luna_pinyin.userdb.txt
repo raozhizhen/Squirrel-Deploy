@@ -1,0 +1,18 @@
+# Rime user dictionary
+#@/db_name	luna_pinyin.userdb
+#@/db_type	userdb
+#@/rime_version	1.2.9
+#@/tick	13
+#@/user_id	ac172d3f-1470-4321-8a1f-3e23aed22bda
+deng zhe 	等着	c=1 d=1 t=5
+deng zhe ni 	等着你	c=1 d=1 t=8
+hui lai 	回來	c=2 d=1.99005 t=9
+kan 	看	c=1 d=1 t=10
+na 	那	c=1 d=1 t=11
+ni 	你	c=1 d=1 t=6
+sheng sheng shi shi 	生生世世	c=1 d=1 t=13
+shi shi 	實施	c=1 d=1 t=1
+tao hua 	桃花	c=1 d=1 t=12
+wo 	我	c=1 d=1 t=2
+zai 	在	c=1 d=1 t=3
+zhe li 	這裏	c=1 d=1 t=4

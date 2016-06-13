@@ -1,0 +1,47 @@
+app_options:
+  com.alfredapp.Alfred:
+    ascii_mode: true
+  com.apple.Terminal:
+    ascii_mode: true
+    no_inline: true
+  com.blacktree.Quicksilver:
+    ascii_mode: true
+  com.googlecode.iterm2:
+    ascii_mode: true
+  "com.runningwithcrayons.Alfred-2":
+    ascii_mode: true
+  org.vim.MacVim:
+    ascii_mode: true
+    no_inline: true
+author: "raozhizhen <raozhizhen@gmail.com>"
+back_color: 0x333333
+candidate_text_color: 0xb9b9b9
+chord_duration: 0.1
+comment_text_color: 0xa5a5a5
+config_version: 0.22.custom.3730153177
+customization: 3730153177
+hilited_candidate_back_color: 0x333333
+hilited_candidate_text_color: 0xff7d00
+hilited_comment_text_color: 0x00a5ea
+hilited_text_color: 0x7fffff
+label_color: 0xf2a45a
+name: "饶志臻"
+show_notifications_via_notification_center: false
+show_notifications_when: appropriate
+style:
+  border_height: 4
+  border_width: 0
+  color_scheme: demo
+  corner_radius: 3
+  font_face: "Lantinghei TC Extralight"
+  font_point: 17
+  horizontal: true
+  inline_preedit: true
+  label_font_face: "Myriad Pro Light"
+  label_font_point: 17
+  line_spacing: 1
+  spacing: 5
+text_color: 0xa5a5a5
+tyle:
+  border_width: 4
+us_keyboard_layout: false

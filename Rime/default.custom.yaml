@@ -1,0 +1,3 @@
+#  default.custom.yaml
+patch:
+    menu/page_size: 9  #设置候选字数量，根据喜好调整。

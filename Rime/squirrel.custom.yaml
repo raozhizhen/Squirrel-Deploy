@@ -1,0 +1,31 @@
+# squirrel.custom.yaml
+patch: 
+  # us_keyboard_layout: true         # 键盘选项：应用美式键盘布局
+  # show_notifications_when: growl_is_running  # 狀態通知，默認裝有Growl時顯示，也可設爲全開（always）全關（never）
+    style/color_scheme: demo         # 选择配色方案
+    style/horizontal: true           # 候选窗横向显示
+  # style/inline_preedit: false   # 关闭内嵌编码，这样就可以显示首行的拼音（MAC下不建议开启）
+    style/corner_radius: 3           # 窗口圆角半径
+    style/border_height: 4           # 窗口边界高度，大于圆角半径才有效果
+    tyle/border_width: 4             # 窗口边界宽度，大于圆角半径才有效果
+  # style/line_spacing: 1         # 候选词的行间距
+  # style/spacing: 5              # 在非内嵌编码模式下，预编辑和候选词之间的间距
+    style/font_face: "Lantinghei TC Extralight"  # 预选栏文字字体，使用中文字体：兰亭黑-纤黑
+    style/font_point: 17             #预选栏文字字号
+    style/label_font_face: "Myriad Pro Light"  # 预选栏编号字体，使用西文字体：Myriad Pro Light
+    style/label_font_point: 17       #预选栏编号字号
+     #上述是候选栏的基本设置，确定了文字的大小和候选栏的外观样式。
+     #下面是“demo”样式文件的配置，主要确定候选栏颜色配置。
+    preset_color_schemes:
+    demo:        #样式名称，就是上述“style/color_scheme: demo”
+    author: "raozhizhen <raozhizhen@gmail.com>"        #作者
+    name: "饶志臻"                      #作者名字
+    label_color: 0xf2a45a                    #预选栏编号颜色
+    back_color: 0x333333                    #背景颜色
+    candidate_text_color: 0xb9b9b9          #非第一后选项文字颜色
+    comment_text_color: 0xa5a5a5            #注解文字颜色
+    hilited_candidate_back_color: 0x333333    #第一后选项背景颜色
+    hilited_candidate_text_color: 0xff7d00    #第一后选项文字颜色
+    hilited_comment_text_color: 0x00a5ea      #注解文字高亮
+    hilited_text_color: 0x7fffff              #拼音串高亮（需要开启内嵌编码）
+    text_color: 0xa5a5a5                      #拼音串颜色（需要开启内嵌编码）
